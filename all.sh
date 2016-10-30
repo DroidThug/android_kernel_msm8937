@@ -1,5 +1,6 @@
 echo -e "KERNEL"
 KERNEL_DIR=~/R3s/kernel
+DTBTOOL=$KERNEL_DIR/dtbToolCM
 KERN_IMG=$KERNEL_DIR/arch/arm64/boot/Image
 # Modify the following variable if you want to build
 export LD_LIBRARY_PATH="/home/aayushrd7/sb-4.9/lib"
